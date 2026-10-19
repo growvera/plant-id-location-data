@@ -63,10 +63,16 @@ Growvera and the sources below.
 
 - **Range maps:** iNaturalist Open Range Map Dataset (Geomodel), iNaturalist
   (inaturalist.org), CC BY 4.0.
-- **Occurrence data:** GBIF.org (1 October 2026) GBIF Occurrence Download
-  https://doi.org/10.15468/dl.tup2g6 — only records licensed CC0 or CC BY 4.0
+- **Occurrence data:** GBIF.org (19 October 2026) Filtered export of GBIF
+  occurrence data https://doi.org/10.15468/dd.867xze — the registered derived
+  dataset for exactly the records used (from the 1 October 2026 snapshot,
+  https://doi.org/10.15468/dl.tup2g6). Only records licensed CC0 or CC BY 4.0
   by their publishers; the individual source datasets are listed in
   `gbif-source-datasets.csv`.
+
+The `citation` field inside `data/2026-10-19/plant-id.ranges.json` predates the
+derived-dataset registration and names the snapshot DOI; the data itself is
+identical. Cite the derived dataset above.
 
 Provided as is, without warranty: range maps and occurrence records are models
 and observations, not ground truth.
